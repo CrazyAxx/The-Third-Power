@@ -1,9 +1,9 @@
 function setup() {
-  createCanvas( windowWidth , windoHeight , WEBGL );
+  createCanvas( 100 , 100 , WEBGL );
 }
 
 function draw() {
-  background( windowWidth , windowHeight );
+  background( 200 , 200 );
   rotateX( frameCount * 0.01 );
   rotateY( frameCount * 0.01 );
   box( 200 , 200 , 200 );
