@@ -11,7 +11,7 @@ function draw() {
   rotateX( frameCount * 0.01 );
   rotateY( frameCount * 0.01 );
   box( x , y , z );
-  x=x+.01
-  y=y+.01
-  z=z+.01
+  x=x+.1
+  y=y+.1
+  z=z+.1
 }
