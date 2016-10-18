@@ -6,5 +6,5 @@ function draw() {
   background( 1380 , 900 );
   rotateX( frameCount * 0.01 );
   rotateY( frameCount * 0.01 );
-  box( mouseX , mouseY , 200 );
+  box( mouseX , mouseY , mouseZ );
 }
