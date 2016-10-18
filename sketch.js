@@ -2,10 +2,16 @@ function setup() {
   createCanvas( 1280 , 800 , WEBGL );
 }
 
+  var x=200
+  var y=200
+  var z=200
+
 function draw() {
   background( 1380 , 900 );
   rotateX( frameCount * 0.01 );
   rotateY( frameCount * 0.01 );
-  box( 200 , 200 , 200 );
-  translate( mouseX , mouseY , 200 );
+  box( x , y , z );
+  x=x+5
+  y=y+5
+  z=z+5
 }
