@@ -1,7 +1,5 @@
 function setup() {
-  xRes=windowWidth
-  yRes=windowHeight
-  WEBGL
+  createCanvas( 1280 , 800 , WEBGL )
 }
 
   var x=200
