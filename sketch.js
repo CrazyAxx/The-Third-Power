@@ -10,7 +10,7 @@ function draw() {
   background( 1380 , 900 );
   rotateX( frameCount * 0.01 );
   rotateY( frameCount * 0.01 );
-  translat( mouseX , mouseY , 0 );
+  translate( mouseX , mouseY , 0 );
   box( x , y , z );
   x=x+.1
   y=y+.1
